@@ -64,8 +64,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 @font-face {
-  font-family: 'PhantLight';
-  src: url("fonts/PhantLight.otf");
+  font-family: 'yataghan';
+  src: url("fonts/yataghan.ttf");
 }
 /* line 1, ../sass/components/_base.scss */
 .wrap {
@@ -76,16 +76,32 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 8, ../sass/components/_base.scss */
-.backdrop {
-  width: 100%;
-  position: relative;
-  top: 0;
-  left: 0;
-  position: absolute;
-  overflow: hidden;
-}
-
-/* line 17, ../sass/components/_base.scss */
 body {
   background: #67bbd6;
+}
+
+/* line 12, ../sass/components/_base.scss */
+.full-page {
+  height: 100vh;
+}
+
+/* line 16, ../sass/components/_base.scss */
+.center-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* line 1, ../sass/modules/_title.scss */
+.title {
+  font-family: "yataghan";
 }
