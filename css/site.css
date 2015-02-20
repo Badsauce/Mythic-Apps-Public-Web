@@ -124,6 +124,6 @@ body {
   font-size: 5em;
   letter-spacing: .5em;
   color: #27657a;
-  -webkit-animation: fadein 2s;
-          animation: fadein 2s;
+  -webkit-animation: fadein 3s;
+          animation: fadein 3s;
 }
