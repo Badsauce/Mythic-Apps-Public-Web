@@ -1,0 +1,19 @@
+.wrap {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  z-index: 10;
+}
+
+.backdrop {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  position: absolute;
+  overflow: hidden;
+}
+
+body {
+  background: $mainBackground;
+}
