@@ -70,17 +70,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 @-webkit-keyframes fadein {
   from {
     opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
   }
   to {
     opacity: 1;
+    -webkit-transform: none;
+            transform: none;
   }
 }
 @keyframes fadein {
   from {
     opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
   }
   to {
     opacity: 1;
+    -webkit-transform: none;
+            transform: none;
   }
 }
 /* line 1, ../sass/components/_base.scss */
