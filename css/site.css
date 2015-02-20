@@ -67,6 +67,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: 'yataghan';
   src: url("fonts/yataghan.ttf");
 }
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 /* line 1, ../sass/components/_base.scss */
 .wrap {
   width: 100%;
@@ -104,4 +120,10 @@ body {
 /* line 1, ../sass/modules/_title.scss */
 .title {
   font-family: "yataghan";
+  text-transform: uppercase;
+  font-size: 5em;
+  letter-spacing: .5em;
+  color: #27657a;
+  -webkit-animation: fadein 2s;
+          animation: fadein 2s;
 }
