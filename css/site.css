@@ -97,19 +97,39 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   max-width: 960px;
   margin: 0 auto;
   z-index: 10;
+  height: 100vh;
 }
 
-/* line 8, ../sass/components/_base.scss */
+/* line 9, ../sass/components/_base.scss */
 body {
   background: #67bbd6;
+  font-size: .4em;
+}
+@media screen and (min-width: 550px) and (max-width: 850px) {
+  /* line 9, ../sass/components/_base.scss */
+  body {
+    font-size: .6em;
+  }
+}
+@media screen and (min-width: 850px) and (max-width: 960px) {
+  /* line 9, ../sass/components/_base.scss */
+  body {
+    font-size: .8em;
+  }
+}
+@media screen and (min-width: 960px) {
+  /* line 9, ../sass/components/_base.scss */
+  body {
+    font-size: 1em;
+  }
 }
 
-/* line 12, ../sass/components/_base.scss */
+/* line 26, ../sass/components/_base.scss */
 .full-page {
   height: 100vh;
 }
 
-/* line 16, ../sass/components/_base.scss */
+/* line 30, ../sass/components/_base.scss */
 .center-content {
   display: -webkit-box;
   display: -webkit-flex;
@@ -159,7 +179,7 @@ body {
 
 /* line 27, ../sass/modules/_title.scss */
 img {
-  width: 100%;
+  width: 95%;
   padding: 1.25em 0;
   -webkit-animation: fadein 3s;
           animation: fadein 3s;
