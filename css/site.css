@@ -132,6 +132,35 @@ body {
   font-size: 5em;
   letter-spacing: .5em;
   color: #27657a;
+  padding-bottom: 2em;
+  -webkit-animation: fadein 3s;
+          animation: fadein 3s;
+}
+
+/* line 13, ../sass/modules/_title.scss */
+.tagline {
+  font-family: "yataghan";
+  text-transform: uppercase;
+  font-size: 4em;
+  letter-spacing: .5em;
+  color: #27657a;
+  -webkit-animation: fadein 3s;
+          animation: fadein 3s;
+}
+
+/* line 23, ../sass/modules/_title.scss */
+.vertical {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 27, ../sass/modules/_title.scss */
+img {
+  width: 100%;
+  padding: 1.25em 0;
   -webkit-animation: fadein 3s;
           animation: fadein 3s;
 }

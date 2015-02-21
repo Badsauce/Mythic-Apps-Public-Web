@@ -5,5 +5,27 @@
   letter-spacing: .5em;
   color: $titleText;
 
+  padding-bottom: 2em;
+
+  animation: fadein 3s;
+}
+
+.tagline {
+  font-family: "yataghan";
+  text-transform: uppercase;
+  font-size: 4em;
+  letter-spacing: .5em;
+  color: $titleText;
+
+  animation: fadein 3s;
+}
+
+.vertical {
+  flex-direction: column;
+}
+
+img {
+  width: 100%;
+  padding: 1.25em 0;
   animation: fadein 3s;
 }
