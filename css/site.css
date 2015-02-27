@@ -91,6 +91,40 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
             transform: none;
   }
 }
+@-webkit-keyframes fadein-delayed {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -50%, 0);
+            transform: translate3d(0, -50%, 0);
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -50%, 0);
+            transform: translate3d(0, -50%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+@keyframes fadein-delayed {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -50%, 0);
+            transform: translate3d(0, -50%, 0);
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -50%, 0);
+            transform: translate3d(0, -50%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
 /* line 1, ../sass/components/_base.scss */
 .wrap {
   width: 100%;
@@ -145,30 +179,30 @@ body {
           align-items: center;
 }
 
-/* line 1, ../sass/modules/_title.scss */
+/* line 3, ../sass/modules/_title.scss */
 .title {
   font-family: "yataghan";
   text-transform: uppercase;
   font-size: 5em;
   letter-spacing: .5em;
   color: #27657a;
-  padding-bottom: 2em;
-  -webkit-animation: fadein 3s;
-          animation: fadein 3s;
+  padding-bottom: 1.5em;
+  -webkit-animation: fadein 2.5s;
+          animation: fadein 2.5s;
 }
 
-/* line 13, ../sass/modules/_title.scss */
+/* line 15, ../sass/modules/_title.scss */
 .tagline {
   font-family: "yataghan";
   text-transform: uppercase;
   font-size: 4em;
   letter-spacing: .5em;
   color: #27657a;
-  -webkit-animation: fadein 3s;
-          animation: fadein 3s;
+  -webkit-animation: fadein-delayed 5s;
+          animation: fadein-delayed 5s;
 }
 
-/* line 23, ../sass/modules/_title.scss */
+/* line 25, ../sass/modules/_title.scss */
 .vertical {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -177,10 +211,10 @@ body {
           flex-direction: column;
 }
 
-/* line 27, ../sass/modules/_title.scss */
+/* line 29, ../sass/modules/_title.scss */
 img {
   width: 95%;
   padding: 1.25em 0;
-  -webkit-animation: fadein 3s;
-          animation: fadein 3s;
+  -webkit-animation: fadein-delayed 5s;
+          animation: fadein-delayed 5s;
 }

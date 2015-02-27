@@ -1,3 +1,5 @@
+$fadetime: 2.5s;
+
 .title {
   font-family: "yataghan";
   text-transform: uppercase;
@@ -5,9 +7,9 @@
   letter-spacing: .5em;
   color: $titleText;
 
-  padding-bottom: 2em;
+  padding-bottom: 1.5em;
 
-  animation: fadein 3s;
+  animation: fadein $fadetime;
 }
 
 .tagline {
@@ -17,7 +19,7 @@
   letter-spacing: .5em;
   color: $titleText;
 
-  animation: fadein 3s;
+  animation: fadein-delayed $fadetime*2;
 }
 
 .vertical {
@@ -27,5 +29,5 @@
 img {
   width: 95%;
   padding: 1.25em 0;
-  animation: fadein 3s;
+  animation: fadein-delayed $fadetime*2;
 }
