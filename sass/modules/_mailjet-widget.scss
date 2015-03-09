@@ -1,0 +1,43 @@
+#mailjet-widget {
+  text-align: center;
+  font-family: "yataghan";
+  color: $widgetText;
+  font-size: 2em;
+
+  animation: fadein-delayed $fadetime*2;
+
+  button {
+    background: none;
+    border: .1em solid $widgetText;
+    border-radius: .2em;
+    font-family: "yataghan";
+    color: $widgetText;
+    font-size: 1em;
+  }
+
+  input {
+    background: none;
+    border: .1em solid $widgetText;
+    border-radius: .2em;
+    font-family: "yataghan";
+    color: $widgetText;
+    font-size: 1em;
+    padding-left: .2em;
+  }
+
+  ::-webkit-input-placeholder {
+   color: $widgetPlaceholder;
+  }
+
+  :-moz-placeholder { /* Firefox 18- */
+     color: $widgetPlaceholder;
+  }
+
+  ::-moz-placeholder {  /* Firefox 19+ */
+     color: $widgetPlaceholder;
+  }
+
+  :-ms-input-placeholder {
+     color: $widgetPlaceholder;
+  }
+}

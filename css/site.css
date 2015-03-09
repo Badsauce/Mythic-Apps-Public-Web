@@ -179,7 +179,7 @@ body {
           align-items: center;
 }
 
-/* line 3, ../sass/modules/_title.scss */
+/* line 1, ../sass/modules/_title.scss */
 .title {
   font-family: "yataghan";
   text-transform: uppercase;
@@ -191,7 +191,7 @@ body {
           animation: fadein 2.5s;
 }
 
-/* line 15, ../sass/modules/_title.scss */
+/* line 13, ../sass/modules/_title.scss */
 .tagline {
   font-family: "yataghan";
   text-transform: uppercase;
@@ -202,7 +202,7 @@ body {
           animation: fadein-delayed 5s;
 }
 
-/* line 25, ../sass/modules/_title.scss */
+/* line 23, ../sass/modules/_title.scss */
 .vertical {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -211,10 +211,57 @@ body {
           flex-direction: column;
 }
 
-/* line 29, ../sass/modules/_title.scss */
+/* line 27, ../sass/modules/_title.scss */
 img {
   width: 95%;
   padding: 1.25em 0;
   -webkit-animation: fadein-delayed 5s;
           animation: fadein-delayed 5s;
+}
+
+/* line 1, ../sass/modules/_mailjet-widget.scss */
+#mailjet-widget {
+  text-align: center;
+  font-family: "yataghan";
+  color: #27657a;
+  font-size: 2em;
+  -webkit-animation: fadein-delayed 5s;
+          animation: fadein-delayed 5s;
+}
+/* line 9, ../sass/modules/_mailjet-widget.scss */
+#mailjet-widget button {
+  background: none;
+  border: 0.1em solid #27657a;
+  border-radius: .2em;
+  font-family: "yataghan";
+  color: #27657a;
+  font-size: 1em;
+}
+/* line 18, ../sass/modules/_mailjet-widget.scss */
+#mailjet-widget input {
+  background: none;
+  border: 0.1em solid #27657a;
+  border-radius: .2em;
+  font-family: "yataghan";
+  color: #27657a;
+  font-size: 1em;
+  padding-left: .2em;
+}
+/* line 28, ../sass/modules/_mailjet-widget.scss */
+#mailjet-widget ::-webkit-input-placeholder {
+  color: #3B98B8;
+}
+/* line 32, ../sass/modules/_mailjet-widget.scss */
+#mailjet-widget :-moz-placeholder {
+  /* Firefox 18- */
+  color: #3B98B8;
+}
+/* line 36, ../sass/modules/_mailjet-widget.scss */
+#mailjet-widget ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #3B98B8;
+}
+/* line 40, ../sass/modules/_mailjet-widget.scss */
+#mailjet-widget :-ms-input-placeholder {
+  color: #3B98B8;
 }

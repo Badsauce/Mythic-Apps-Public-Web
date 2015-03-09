@@ -6,9 +6,11 @@
 @import 'components/colorScheme';
 @import 'components/fonts';
 @import 'components/animations';
+@import 'components/constants';
 
 @import 'components/base';
 
 //modules
 
-@import 'modules/title'
+@import 'modules/title';
+@import 'modules/mailjet-widget';
