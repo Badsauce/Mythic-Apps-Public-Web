@@ -3,7 +3,7 @@ $( document ).ready(function() {
     e.preventDefault();
     var url = "http://mailapi.mythicapps.io/addContact?"+$("#mailjet-widget").serialize();
     $.post( url, function( data ) {
-      $(".loader").hide();
+      $(".mailjet-widget-loader").hide();
       if (data.status === "ok"){
         $(".mailjet-widget-status").addClass("success").text(data.message).show();
       }
@@ -14,6 +14,6 @@ $( document ).ready(function() {
     });
     $(".mailjet-widget-status").attr("class","mailjet-widget-status").hide();
     $("#mailjet-widget").toggle("slow");
-    $(".loader").show();
+    $(".mailjet-widget-loader").show();
   });
 });

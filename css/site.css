@@ -288,12 +288,14 @@ img {
 /* line 58, ../sass/modules/_mailjet-widget.scss */
 .mailjet-widget-status {
   font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+  padding-top: .5em;
 }
-/* line 61, ../sass/modules/_mailjet-widget.scss */
+/* line 63, ../sass/modules/_mailjet-widget.scss */
 .mailjet-widget-status.error {
   color: #c0392b;
 }
-/* line 65, ../sass/modules/_mailjet-widget.scss */
+/* line 67, ../sass/modules/_mailjet-widget.scss */
 .mailjet-widget-status.success {
   color: green;
 }
