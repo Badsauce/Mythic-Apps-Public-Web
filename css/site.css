@@ -275,3 +275,25 @@ img {
 #mailjet-widget :-ms-input-placeholder {
   color: #3B98B8;
 }
+
+/* line 51, ../sass/modules/_mailjet-widget.scss */
+.mailjet-widget-loader {
+  display: none;
+  width: 2%;
+  padding: 0;
+  -webkit-animation: none;
+          animation: none;
+}
+
+/* line 58, ../sass/modules/_mailjet-widget.scss */
+.mailjet-widget-status {
+  font-family: 'Open Sans', sans-serif;
+}
+/* line 61, ../sass/modules/_mailjet-widget.scss */
+.mailjet-widget-status.error {
+  color: #c0392b;
+}
+/* line 65, ../sass/modules/_mailjet-widget.scss */
+.mailjet-widget-status.success {
+  color: green;
+}
