@@ -175,6 +175,13 @@ body {
           align-items: center;
 }
 
+@media screen and (max-width: 550px) {
+  /* line 36, ../sass/components/_base.scss */
+  .desktop {
+    display: none;
+  }
+}
+
 /* line 1, ../sass/modules/_title.scss */
 .title {
   font-family: "yataghan";
@@ -220,7 +227,7 @@ img {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   color: #27657a;
-  font-size: 3em;
+  font-size: 2.5em;
   padding-top: 2em;
   -webkit-animation: fadein-delayed 5s;
           animation: fadein-delayed 5s;
