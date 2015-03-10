@@ -2,11 +2,15 @@
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   color: $widgetText;
-  font-size: 2em;
+  font-size: 3em;
 
   padding-top: 2em;
 
   animation: fadein-delayed $fadetime*2;
+
+  @media screen and (min-width: 550px) {
+    font-size: 2em;
+  }
 
   button {
     background: none;

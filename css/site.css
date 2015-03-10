@@ -220,12 +220,18 @@ img {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   color: #27657a;
-  font-size: 2em;
+  font-size: 3em;
   padding-top: 2em;
   -webkit-animation: fadein-delayed 5s;
           animation: fadein-delayed 5s;
 }
-/* line 11, ../sass/modules/_mailjet-widget.scss */
+@media screen and (min-width: 550px) {
+  /* line 1, ../sass/modules/_mailjet-widget.scss */
+  #mailjet-widget {
+    font-size: 2em;
+  }
+}
+/* line 15, ../sass/modules/_mailjet-widget.scss */
 #mailjet-widget button {
   background: none;
   border: 0.1em solid #27657a;
@@ -234,7 +240,7 @@ img {
   color: #27657a;
   font-size: 1em;
 }
-/* line 20, ../sass/modules/_mailjet-widget.scss */
+/* line 24, ../sass/modules/_mailjet-widget.scss */
 #mailjet-widget input {
   background: none;
   border: 0.1em solid #27657a;
@@ -244,21 +250,21 @@ img {
   font-size: 1em;
   padding-left: .2em;
 }
-/* line 30, ../sass/modules/_mailjet-widget.scss */
+/* line 34, ../sass/modules/_mailjet-widget.scss */
 #mailjet-widget ::-webkit-input-placeholder {
   color: #3B98B8;
 }
-/* line 34, ../sass/modules/_mailjet-widget.scss */
+/* line 38, ../sass/modules/_mailjet-widget.scss */
 #mailjet-widget :-moz-placeholder {
   /* Firefox 18- */
   color: #3B98B8;
 }
-/* line 38, ../sass/modules/_mailjet-widget.scss */
+/* line 42, ../sass/modules/_mailjet-widget.scss */
 #mailjet-widget ::-moz-placeholder {
   /* Firefox 19+ */
   color: #3B98B8;
 }
-/* line 42, ../sass/modules/_mailjet-widget.scss */
+/* line 46, ../sass/modules/_mailjet-widget.scss */
 #mailjet-widget :-ms-input-placeholder {
   color: #3B98B8;
 }
