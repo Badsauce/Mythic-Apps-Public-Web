@@ -11,6 +11,7 @@ $( document ).ready(function() {
         $("#mailjet-widget").css('animation','none').toggle("slow");
         $(".mailjet-widget-status").addClass("error").text(data.message).show();
       }
+      $(".mailjet-widget-status").fadeOut(3500);
     });
     $(".mailjet-widget-status").attr("class","mailjet-widget-status").hide();
     $("#mailjet-widget").toggle("slow");

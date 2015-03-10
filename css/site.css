@@ -91,6 +91,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
             transform: none;
   }
 }
+@-webkit-keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
 @-webkit-keyframes fadein-delayed {
   0% {
     opacity: 0;
