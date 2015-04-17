@@ -206,8 +206,8 @@ body {
   letter-spacing: .5em;
   color: #27657a;
   padding-bottom: .8em;
-  -webkit-animation: fadein 2.5s;
-          animation: fadein 2.5s;
+  -webkit-animation: fadein 2s;
+          animation: fadein 2s;
 }
 
 /* line 13, ../sass/modules/_title.scss */
@@ -217,8 +217,8 @@ body {
   font-size: 4em;
   letter-spacing: .5em;
   color: #27657a;
-  -webkit-animation: fadein-delayed 5s;
-          animation: fadein-delayed 5s;
+  -webkit-animation: fadein-delayed 4s;
+          animation: fadein-delayed 4s;
 }
 
 /* line 23, ../sass/modules/_title.scss */
@@ -234,8 +234,8 @@ body {
 img {
   width: 95%;
   padding: 1.25em 0;
-  -webkit-animation: fadein-delayed 5s;
-          animation: fadein-delayed 5s;
+  -webkit-animation: fadein-delayed 4s;
+          animation: fadein-delayed 4s;
 }
 
 /* line 1, ../sass/modules/_mailjet-widget.scss */
@@ -245,8 +245,8 @@ img {
   color: #27657a;
   font-size: 2.5em;
   padding-top: 2em;
-  -webkit-animation: fadein-delayed 5s;
-          animation: fadein-delayed 5s;
+  -webkit-animation: fadein-delayed 4s;
+          animation: fadein-delayed 4s;
 }
 @media screen and (min-width: 550px) {
   /* line 1, ../sass/modules/_mailjet-widget.scss */
