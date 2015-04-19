@@ -343,7 +343,11 @@ body {
 /* line 27, ../sass/modules/_hero-background.scss */
 .capitol {
   position: absolute;
-  bottom: 5%;
   width: 85%;
   left: 40%;
+}
+
+/* line 1, ../sass/modules/_hero.scss */
+#hero-content {
+  width: 50%;
 }
