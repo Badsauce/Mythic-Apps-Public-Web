@@ -203,11 +203,13 @@ body {
   font-family: "yataghan";
   text-transform: uppercase;
   font-size: 5em;
-  letter-spacing: .5em;
-  color: #27657a;
-  padding-bottom: .8em;
-  -webkit-animation: fadein 2s;
-          animation: fadein 2s;
+  color: #dcf0fb;
+  text-shadow: 0 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* line 9, ../sass/modules/_title.scss */
+.gem {
+  padding-left: 11%;
 }
 
 /* line 13, ../sass/modules/_title.scss */
@@ -216,7 +218,7 @@ body {
   text-transform: uppercase;
   font-size: 4em;
   letter-spacing: .5em;
-  color: #27657a;
+  color: #dcf0fb;
   -webkit-animation: fadein-delayed 4s;
           animation: fadein-delayed 4s;
 }
@@ -310,28 +312,38 @@ body {
 
 /* line 1, ../sass/modules/_hero-background.scss */
 #hero-background {
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
   width: 100%;
   height: 100vh;
   overflow: hidden;
 }
 
-/* line 8, ../sass/modules/_hero-background.scss */
+/* line 11, ../sass/modules/_hero-background.scss */
 .full-width {
   width: 100%;
 }
 
-/* line 12, ../sass/modules/_hero-background.scss */
+/* line 15, ../sass/modules/_hero-background.scss */
 .align-bottom {
   position: absolute;
   bottom: 0;
   left: 0;
 }
 
-/* line 18, ../sass/modules/_hero-background.scss */
+/* line 21, ../sass/modules/_hero-background.scss */
+.align-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 27, ../sass/modules/_hero-background.scss */
 .capitol {
   position: absolute;
-  bottom: 0;
-  width: 100%;
-  left: 35%;
+  bottom: 5%;
+  width: 85%;
+  left: 40%;
 }
