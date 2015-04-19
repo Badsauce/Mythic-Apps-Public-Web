@@ -23,9 +23,3 @@
 .vertical {
   flex-direction: column;
 }
-
-img {
-  width: 95%;
-  padding: 1.25em 0;
-  animation: fadein-delayed $fadetime*2;
-}
