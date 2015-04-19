@@ -189,10 +189,15 @@ body {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 @media screen and (max-width: 550px) {
-  /* line 36, ../sass/components/_base.scss */
+  /* line 37, ../sass/components/_base.scss */
   .desktop {
     display: none;
   }
@@ -343,8 +348,8 @@ body {
 /* line 27, ../sass/modules/_hero-background.scss */
 .capitol {
   position: absolute;
-  width: 85%;
-  left: 40%;
+  width: 80%;
+  left: 46%;
 }
 
 /* line 1, ../sass/modules/_hero.scss */
