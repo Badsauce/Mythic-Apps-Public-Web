@@ -203,21 +203,7 @@ body {
   }
 }
 
-/* line 1, ../sass/modules/_title.scss */
-.title {
-  font-family: "yataghan";
-  text-transform: uppercase;
-  font-size: 5em;
-  color: #dcf0fb;
-  text-shadow: 0 0px 20px rgba(0, 0, 0, 0.5);
-}
-
-/* line 9, ../sass/modules/_title.scss */
-.gem {
-  padding-left: 11%;
-}
-
-/* line 13, ../sass/modules/_title.scss */
+/* line 3, ../sass/modules/_title.scss */
 .tagline {
   font-family: "yataghan";
   text-transform: uppercase;
@@ -228,7 +214,7 @@ body {
           animation: fadein-delayed 4s;
 }
 
-/* line 23, ../sass/modules/_title.scss */
+/* line 13, ../sass/modules/_title.scss */
 .vertical {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -355,4 +341,24 @@ body {
 /* line 1, ../sass/modules/_hero.scss */
 #hero-content {
   width: 50%;
+}
+
+/* line 5, ../sass/modules/_hero.scss */
+.title {
+  font-family: "yataghan";
+  text-transform: uppercase;
+  font-size: 5em;
+  color: #dcf0fb;
+  text-shadow: 0 0px 20px rgba(0, 0, 0, 0.5);
+  padding-bottom: .25em;
+}
+
+/* line 18, ../sass/modules/_hero.scss */
+.subtitle {
+  font-family: "Lora";
+  letter-spacing: .05em;
+  text-transform: lowercase;
+  font-size: 2em;
+  color: #dcf0fb;
+  text-shadow: 0 0px 20px rgba(0, 0, 0, 0.5);
 }
