@@ -22,16 +22,26 @@
     font-family: 'Lora', sans-serif;
     color: $widgetText;
     font-size: 1em;
+    transition: background-color 0.5s ease;
+    box-shadow: 0 0 13px rgba(0,0,0,.4);
+    text-shadow: 0 0 13px rgba(0,0,0,.7);
+
+    &:hover {
+      background: $fadedDeep;
+      transition: background-color 0.5s ease;
+    }
   }
 
   input {
     background: none;
-    border: .1em solid $widgetText;
-    border-radius: .2em;
+    border: none;
+    border-bottom: .1em solid $widgetText;
     font-family: 'Lora', sans-serif;
     color: $widgetText;
     font-size: 1em;
     padding-left: .2em;
+    width: 70%;
+    box-shadow: 0 8px 6px -6px rgba(0,0,0,.2);
   }
 
   ::-webkit-input-placeholder {

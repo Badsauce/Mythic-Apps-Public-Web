@@ -1,9 +1,10 @@
 //Blues
 $aqua: #67bbd6;
 $deepBlue: #1b6784;
-$fadedDeep: #3B98B8;
+$fadedDeep: rgba(27,103,132,.6);
 $lightblue: #80dff6;
 $porcelin: #dcf0fb;
+$glass: rgba(220,240,251,.7);
 
 //Reds
 $alert: #c0392b;
@@ -11,6 +12,13 @@ $alert: #c0392b;
 //Base Colors
 $mainBackground: $lightblue;
 $titleText: $porcelin;
+
 $widgetText: $porcelin;
-$widgetPlaceholder: $fadedDeep;
+$widgetPlaceholder: $glass;
+
 $socialMedia: $deepBlue;
+$socialMediaMobile: $porcelin;
+
+$contactButton: $fadedDeep;
+$contactButtonActive: $deepBlue;
+$contactButtonFont: $porcelin;

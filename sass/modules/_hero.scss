@@ -1,5 +1,10 @@
 #hero-content {
-  width: 50%;
+  padding-top: 5vh;
+  width: 100%;
+
+  @media screen and (min-width: 850px) {
+    width: 50%;
+  }
 }
 
 .title {
@@ -12,7 +17,11 @@
 }
 
 .gem {
+  width: 21%;
 
+  @media screen and (min-width: 850px) {
+    width: 42%;
+  }
 }
 
 .subtitle {
@@ -24,7 +33,7 @@
   text-shadow: 0 0 13px rgba(0,0,0,.7);
 }
 
-.social-media {
+.social-media-desktop {
   position: absolute;
   padding: 1em;
   font-size: 4em;
@@ -32,5 +41,48 @@
   flex-direction: column;
   a, a:visited {
     color: $socialMedia
+  }
+
+  @media screen and (max-width: 550px) {
+    display: none;
+  }
+}
+
+.social-media-mobile {
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+  a, a:visited {
+    color: $socialMediaMobile;
+    padding: .25em;
+  }
+
+  @media screen and (min-width: 550px) {
+    display: none;
+  }
+}
+
+.contacts {
+  padding-top: .4em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-button {
+  display: inline-block;
+  background: $contactButton;
+  text-align: center;
+  text-decoration: none;
+  color: $contactButtonFont;
+  font-family: "Lora";
+  font-size: 2em;
+  padding: .5em;
+  margin: 0 .25em;
+  transition: background-color 0.5s ease;
+
+  &:hover {
+    background: $contactButtonActive;
+    transition: background-color 0.5s ease;
   }
 }
