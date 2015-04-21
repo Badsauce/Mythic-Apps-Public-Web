@@ -23,3 +23,14 @@
   color: $titleText;
   text-shadow: 0 0 13px rgba(0,0,0,.7);
 }
+
+.social-media {
+  position: absolute;
+  padding: 1em;
+  font-size: 4em;
+  display: flex;
+  flex-direction: column;
+  a, a:visited {
+    color: $socialMedia
+  }
+}
