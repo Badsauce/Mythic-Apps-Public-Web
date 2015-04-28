@@ -5,6 +5,7 @@ $fadedDeep: rgba(27,103,132,.6);
 $lightblue: #80dff6;
 $porcelin: #dcf0fb;
 $glass: rgba(220,240,251,.7);
+$softSteel: #5891A3;
 
 //Reds
 $alert: #c0392b;
@@ -19,8 +20,12 @@ $widgetPlaceholder: $glass;
 $socialMedia: $deepBlue;
 $socialMediaMobile: $porcelin;
 
+$button: $deepBlue;
+$buttonActive: $softSteel;
+$buttonFont: $porcelin;
+
 $contactButton: $fadedDeep;
 $contactButtonActive: $deepBlue;
-$contactButtonFont: $porcelin;
+
 
 $navbar: $deepBlue

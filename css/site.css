@@ -223,6 +223,36 @@ body {
           flex-direction: column;
 }
 
+/* line 1, ../sass/modules/_button.scss */
+.button {
+  display: inline-block;
+  background: #0b6683;
+  text-align: center;
+  text-decoration: none;
+  color: #dcf0fb;
+  font-family: "Lora";
+  font-size: 2em;
+  padding: .5em;
+  margin: 0 .25em;
+  -webkit-transition: background-color 0.5s ease;
+          transition: background-color 0.5s ease;
+}
+/* line 13, ../sass/modules/_button.scss */
+.button:hover {
+  background: #5891A3;
+  -webkit-transition: background-color 0.5s ease;
+          transition: background-color 0.5s ease;
+}
+
+/* line 19, ../sass/modules/_button.scss */
+.button--contact {
+  background: rgba(27, 103, 132, 0.6);
+}
+/* line 22, ../sass/modules/_button.scss */
+.button--contact:hover {
+  background: #0b6683;
+}
+
 /* line 1, ../sass/modules/_mailjet-widget.scss */
 #mailjet-widget {
   text-align: center;
@@ -463,27 +493,6 @@ body {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-/* line 72, ../sass/modules/_hero.scss */
-.contact-button {
-  display: inline-block;
-  background: rgba(27, 103, 132, 0.6);
-  text-align: center;
-  text-decoration: none;
-  color: #dcf0fb;
-  font-family: "Lora";
-  font-size: 2em;
-  padding: .5em;
-  margin: 0 .25em;
-  -webkit-transition: background-color 0.5s ease;
-          transition: background-color 0.5s ease;
-}
-/* line 84, ../sass/modules/_hero.scss */
-.contact-button:hover {
-  background: #0b6683;
-  -webkit-transition: background-color 0.5s ease;
-          transition: background-color 0.5s ease;
 }
 
 /* line 1, ../sass/modules/_navbar.scss */

@@ -68,21 +68,3 @@
   display: flex;
   justify-content: center;
 }
-
-.contact-button {
-  display: inline-block;
-  background: $contactButton;
-  text-align: center;
-  text-decoration: none;
-  color: $contactButtonFont;
-  font-family: "Lora";
-  font-size: 2em;
-  padding: .5em;
-  margin: 0 .25em;
-  transition: background-color 0.5s ease;
-
-  &:hover {
-    background: $contactButtonActive;
-    transition: background-color 0.5s ease;
-  }
-}

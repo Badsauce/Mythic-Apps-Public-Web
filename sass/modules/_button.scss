@@ -1,0 +1,25 @@
+.button {
+  display: inline-block;
+  background: $button;
+  text-align: center;
+  text-decoration: none;
+  color: $buttonFont;
+  font-family: "Lora";
+  font-size: 2em;
+  padding: .5em;
+  margin: 0 .25em;
+  transition: background-color 0.5s ease;
+
+  &:hover {
+    background: $buttonActive;
+    transition: background-color 0.5s ease;
+  }
+}
+
+.button--contact {
+    background: $contactButton;
+
+    &:hover {
+      background: $contactButtonActive;
+    }
+}
