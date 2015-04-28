@@ -11,6 +11,7 @@
 
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.0.0/animate.min.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="css/site.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -65,11 +66,48 @@
             <img class="full-width align-bottom" src="img/whale-rock.svg" />
             <img class="full-width align-bottom" src="img/back-rock.svg" />
             <img class="full-width align-bottom capitol" src="img/capitol.svg" />
-            <img class="full-width align-bottom" src="img/front-reef.svg" />
+            <img class="full-width align-bottom close-gap" src="img/front-reef.svg" />
           </div>
         </section>
 
+        <div id="header" class="header">
+           <nav id="nav">
+               <ul class="nav navbar-nav">
+                   <li>
+                     <a href="#about" class="contact-button">about</a>
+                   </li>
+                   <li>
+                     <a href="#faq" class="contact-button">faq</a>
+                   </li>
+                   <li>
+                     <a href="#sponsors" class="contact-button">sponsors</a>
+                   </li>
+                   <li>
+                     <a href="#partners" class="contact-button">partners</a>
+                   </li>
+               </ul>
+           </nav>
+        </div>
+
+        <section id="about" class="scrollto">
+
+        </section>
+
+        <section id="faq" class="scrollto">
+
+        </section>
+
+        <section id="sponsors" class="scrollto">
+
+        </section>
+
+        <section id="partners" class="scrollto">
+
+        </section>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+        <script src="http://cdn.jsdelivr.net/stickynavbar.js/1.1.2/jquery.stickyNavbar.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         <script src="js/mailjet-widget.js"></script>
 
@@ -80,6 +118,10 @@
             e.src='https://www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-59904417-1','auto');ga('send','pageview');
+
+            $(function () {
+               $('.header').stickyNavbar();
+            });
         </script>
     </body>
 </html>
