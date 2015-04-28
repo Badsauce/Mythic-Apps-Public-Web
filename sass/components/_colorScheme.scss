@@ -1,3 +1,5 @@
+//Semantic Names//
+
 //Blues
 $aqua: #67bbd6;
 $deepBlue: #0b6683;
@@ -10,8 +12,12 @@ $softSteel: #5891A3;
 //Reds
 $alert: #c0392b;
 
-//Base Colors
+//Color Assignments//
+
+//Backgrounds
 $mainBackground: $lightblue;
+$aboutBackground: $deepBlue;
+
 $titleText: $porcelin;
 
 $widgetText: $porcelin;
@@ -26,6 +32,5 @@ $buttonFont: $porcelin;
 
 $contactButton: $fadedDeep;
 $contactButtonActive: $deepBlue;
-
 
 $navbar: $deepBlue

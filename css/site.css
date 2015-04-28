@@ -524,26 +524,29 @@ body {
 }
 
 /* line 22, ../sass/modules/_navbar.scss */
-.scrollto {
+#faq {
+  background: #80dff6;
   height: 60vh;
 }
 
-/* line 26, ../sass/modules/_navbar.scss */
-#about {
-  background: rgba(27, 103, 132, 0.6);
-}
-
-/* line 30, ../sass/modules/_navbar.scss */
-#faq {
-  background: #80dff6;
-}
-
-/* line 34, ../sass/modules/_navbar.scss */
+/* line 27, ../sass/modules/_navbar.scss */
 #sponsors {
   background: #dcf0fb;
+  height: 60vh;
 }
 
-/* line 38, ../sass/modules/_navbar.scss */
+/* line 32, ../sass/modules/_navbar.scss */
 #partners {
   background: rgba(220, 240, 251, 0.7);
+  height: 60vh;
+}
+
+/* line 1, ../sass/modules/_about.scss */
+#about {
+  background: #0b6683;
+}
+
+/* line 5, ../sass/modules/_about.scss */
+#compass-container {
+  width: 50%;
 }
