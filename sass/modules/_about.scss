@@ -1,7 +1,44 @@
 #about {
   background: $aboutBackground;
+  font-family: "Lora";
 }
 
 #compass-container {
-  width: 50%;
+  width: 90%;
+}
+
+%column {
+  width: 45%
+}
+
+.content-column {
+  @extend %column;
+}
+
+.graphic-column {
+  @extend %column;
+}
+
+.column-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#compass-container {
+  margin: auto;
+}
+
+.about-header {
+  color: $aboutHeader;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.5em;
+  margin: 1em 0;
+}
+
+.about-body {
+  color: $aboutBody;
+  font-size: 1.1em;
+  line-height: 1.2em;
 }
