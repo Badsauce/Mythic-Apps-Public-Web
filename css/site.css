@@ -576,18 +576,18 @@ body {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 10vh 0;
 }
 
-/* line 28, ../sass/modules/_about.scss */
+/* line 29, ../sass/modules/_about.scss */
 #compass-container {
   margin: auto;
 }
 
-/* line 32, ../sass/modules/_about.scss */
+/* line 33, ../sass/modules/_about.scss */
 .about-header {
   color: #ffdb6d;
   font-weight: 700;
-  text-align: center;
   font-size: 1.5em;
   margin: 1em 0;
 }
