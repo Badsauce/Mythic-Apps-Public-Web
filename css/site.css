@@ -560,8 +560,35 @@ body {
 .content-column, .graphic-column {
   width: 45%;
 }
+@media screen and (max-width: 600px) {
+  /* line 10, ../sass/modules/_about.scss */
+  .content-column, .graphic-column {
+    width: 90%;
+    max-width: 250px;
+    margin: auto;
+  }
+}
 
-/* line 22, ../sass/modules/_about.scss */
+/* line 20, ../sass/modules/_about.scss */
+.content-column {
+  padding-left: 1em;
+}
+@media screen and (max-width: 600px) {
+  /* line 20, ../sass/modules/_about.scss */
+  .content-column {
+    text-align: center;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* line 31, ../sass/modules/_about.scss */
+  .graphic-column {
+    display: none;
+  }
+}
+
+/* line 38, ../sass/modules/_about.scss */
 .column-container {
   display: -webkit-box;
   display: -webkit-flex;
@@ -576,15 +603,16 @@ body {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 10vh 0;
+  padding-top: 3em;
+  padding-bottom: 6em;
 }
 
-/* line 29, ../sass/modules/_about.scss */
+/* line 46, ../sass/modules/_about.scss */
 #compass-container {
   margin: auto;
 }
 
-/* line 33, ../sass/modules/_about.scss */
+/* line 50, ../sass/modules/_about.scss */
 .about-header {
   color: #ffdb6d;
   font-weight: 700;
@@ -592,7 +620,7 @@ body {
   margin: 1em 0;
 }
 
-/* line 40, ../sass/modules/_about.scss */
+/* line 57, ../sass/modules/_about.scss */
 .about-body {
   color: #dcf0fb;
   font-size: 1.1em;

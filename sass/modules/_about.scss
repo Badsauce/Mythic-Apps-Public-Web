@@ -8,22 +8,39 @@
 }
 
 %column {
-  width: 45%
+  width: 45%;
+
+  @media screen and (max-width: 600px) {
+    width: 90%;
+    max-width: 250px;
+    margin: auto;
+  }
 }
 
 .content-column {
   @extend %column;
+
+  padding-left: 1em;
+
+  @media screen and (max-width: 600px) {
+    text-align: center;
+    padding-left: 0;
+  }
 }
 
 .graphic-column {
   @extend %column;
+  @media screen and (max-width: 600px) {
+    display:none;
+  }
 }
 
 .column-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 10vh 0;
+  padding-top: 3em;
+  padding-bottom: 6em;
 }
 
 #compass-container {
