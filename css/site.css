@@ -383,8 +383,8 @@ body {
 /* line 27, ../sass/modules/_hero-background.scss */
 .capitol {
   position: absolute;
-  width: 80%;
-  left: 46%;
+  width: 95%;
+  left: 38.5%;
 }
 
 /* line 33, ../sass/modules/_hero-background.scss */
@@ -625,4 +625,13 @@ body {
   color: #dcf0fb;
   font-size: 1.1em;
   line-height: 1.2em;
+}
+
+/* line 1, ../sass/modules/_faq.scss */
+.questions {
+  display: none;
+}
+/* line 4, ../sass/modules/_faq.scss */
+.questions.selected {
+  display: block;
 }
