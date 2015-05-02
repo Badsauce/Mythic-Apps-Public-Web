@@ -203,7 +203,7 @@ body {
 @media screen and (max-width: 550px) {
   /* line 42, ../sass/components/_base.scss */
   .desktop {
-    display: none;
+    display: none !important;
   }
 }
 
@@ -648,11 +648,18 @@ body {
   display: none;
   padding: 6%;
 }
-/* line 8, ../sass/modules/_faq.scss */
+@media screen and (max-width: 550px) {
+  /* line 1, ../sass/modules/_faq.scss */
+  .questions {
+    position: static;
+    background: #d8f0fb;
+  }
+}
+/* line 13, ../sass/modules/_faq.scss */
 .questions.selected {
   display: block;
 }
-/* line 12, ../sass/modules/_faq.scss */
+/* line 17, ../sass/modules/_faq.scss */
 .questions ul {
   display: -webkit-box;
   display: -webkit-flex;
@@ -671,23 +678,30 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-/* line 19, ../sass/modules/_faq.scss */
+/* line 24, ../sass/modules/_faq.scss */
 .questions h2 {
   color: #0b6683;
   font-size: 1.5em;
   padding-bottom: .5em;
 }
-/* line 25, ../sass/modules/_faq.scss */
+/* line 30, ../sass/modules/_faq.scss */
 .questions p {
   line-height: 1.2em;
   padding-bottom: .75em;
 }
-/* line 30, ../sass/modules/_faq.scss */
+/* line 35, ../sass/modules/_faq.scss */
 .questions li {
   width: 45%;
 }
+@media screen and (max-width: 550px) {
+  /* line 35, ../sass/modules/_faq.scss */
+  .questions li {
+    width: 100%;
+    font-size: 1.2em;
+  }
+}
 
-/* line 35, ../sass/modules/_faq.scss */
+/* line 45, ../sass/modules/_faq.scss */
 .faq-nav {
   display: -webkit-box;
   display: -webkit-flex;
@@ -699,14 +713,14 @@ body {
           justify-content: space-between;
 }
 
-/* line 40, ../sass/modules/_faq.scss */
+/* line 50, ../sass/modules/_faq.scss */
 #faq {
   background: #0b6683;
   font-family: "Lora";
   padding-bottom: 2.5em;
 }
 
-/* line 46, ../sass/modules/_faq.scss */
+/* line 56, ../sass/modules/_faq.scss */
 .faq-header {
   text-align: center;
   color: #ffdb6d;
@@ -714,7 +728,13 @@ body {
   padding-bottom: .5em;
 }
 
-/* line 53, ../sass/modules/_faq.scss */
+/* line 63, ../sass/modules/_faq.scss */
 .question-container {
   position: relative;
+}
+@media screen and (max-width: 550px) {
+  /* line 67, ../sass/modules/_faq.scss */
+  .question-container img {
+    display: none;
+  }
 }

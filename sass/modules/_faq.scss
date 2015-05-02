@@ -5,6 +5,11 @@
   display: none;
   padding: 6%;
 
+  @media screen and (max-width: 550px) {
+    position: static;
+    background: $questionMobileBackground;
+  }
+
   &.selected {
     display: block;
   }
@@ -29,6 +34,11 @@
 
   li {
     width: 45%;
+
+    @media screen and (max-width: 550px) {
+      width: 100%;
+      font-size: 1.2em;
+    }
   }
 }
 
@@ -52,4 +62,10 @@
 
 .question-container {
   position: relative;
+
+  @media screen and (max-width: 550px) {
+    img{
+      display:none;
+    }
+  }
 }
