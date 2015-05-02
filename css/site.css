@@ -528,17 +528,6 @@ body {
 }
 
 /* line 22, ../sass/modules/_navbar.scss */
-#faq {
-  background: #80dff6;
-}
-
-/* line 26, ../sass/modules/_navbar.scss */
-#sponsors {
-  background: #dcf0fb;
-  height: 60vh;
-}
-
-/* line 31, ../sass/modules/_navbar.scss */
 #partners {
   background: rgba(220, 240, 251, 0.7);
   height: 60vh;
@@ -629,9 +618,79 @@ body {
 
 /* line 1, ../sass/modules/_faq.scss */
 .questions {
+  position: absolute;
+  top: 0;
+  left: 0;
   display: none;
+  padding: 6%;
 }
-/* line 4, ../sass/modules/_faq.scss */
+/* line 8, ../sass/modules/_faq.scss */
 .questions.selected {
   display: block;
+}
+/* line 12, ../sass/modules/_faq.scss */
+.questions ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/* line 19, ../sass/modules/_faq.scss */
+.questions h2 {
+  color: #0b6683;
+  font-size: 1.5em;
+  padding-bottom: .5em;
+}
+/* line 25, ../sass/modules/_faq.scss */
+.questions p {
+  line-height: 1.2em;
+  padding-bottom: .75em;
+}
+/* line 30, ../sass/modules/_faq.scss */
+.questions li {
+  width: 45%;
+}
+
+/* line 35, ../sass/modules/_faq.scss */
+.faq-nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 40, ../sass/modules/_faq.scss */
+#faq {
+  background: #0b6683;
+  font-family: "Lora";
+  padding-bottom: 2.5em;
+}
+
+/* line 46, ../sass/modules/_faq.scss */
+.faq-header {
+  text-align: center;
+  color: #ffdb6d;
+  font-size: 5em;
+  padding-bottom: .5em;
+}
+
+/* line 53, ../sass/modules/_faq.scss */
+.question-container {
+  position: relative;
 }
