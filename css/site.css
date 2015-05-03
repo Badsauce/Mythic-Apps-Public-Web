@@ -525,8 +525,7 @@ body {
 
 /* line 1, ../sass/modules/_navbar.scss */
 .active {
-  color: #fff !important;
-  text-decoration: underline !important;
+  color: #ffdb6d !important;
   -webkit-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
