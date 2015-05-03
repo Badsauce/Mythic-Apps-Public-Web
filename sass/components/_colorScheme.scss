@@ -10,6 +10,8 @@ $porcelin: #dcf0fb;
 $glass: rgba(220,240,251,.7);
 $softSteel: #5891A3;
 $lemonCreme: #ffdb6d;
+$caramel: #9e7a2d;
+$fadedCaramel: rgba(158,122,45,.6);
 
 //Reds
 $alert: #c0392b;
@@ -39,8 +41,8 @@ $button: $deepBlue;
 $buttonActive: $softSteel;
 $buttonFont: $porcelin;
 
-$contactButton: $fadedDeep;
-$contactButtonActive: $deepBlue;
+$contactButton: $fadedCaramel;
+$contactButtonActive: $caramel;
 
 $faqButtonSelected: $lemonCreme;
 

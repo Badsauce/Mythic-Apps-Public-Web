@@ -250,11 +250,11 @@ body {
 
 /* line 19, ../sass/modules/_button.scss */
 .button--contact {
-  background: rgba(27, 103, 132, 0.6);
+  background: rgba(158, 122, 45, 0.6);
 }
 /* line 22, ../sass/modules/_button.scss */
 .button--contact:hover {
-  background: #0b6683;
+  background: #9e7a2d;
 }
 
 /* line 28, ../sass/modules/_button.scss */
@@ -320,7 +320,7 @@ body {
   border-bottom: 0.1em solid #dcf0fb;
   font-family: 'Muli', sans-serif;
   color: #dcf0fb;
-  font-size: .8em;
+  font-size: .65em;
   padding-left: .2em;
   width: 70%;
   box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.2);
