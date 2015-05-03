@@ -234,7 +234,7 @@ body {
   text-align: center;
   text-decoration: none;
   color: #dcf0fb;
-  font-family: "Nunito";
+  font-family: "Muli";
   font-size: 2em;
   padding: .5em;
   margin: 0 .25em;
@@ -278,7 +278,7 @@ body {
 /* line 1, ../sass/modules/_mailjet-widget.scss */
 #mailjet-widget {
   text-align: center;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Muli', sans-serif;
   color: #dcf0fb;
   font-size: 2.5em;
   text-shadow: 0 0 13px rgba(0, 0, 0, 0.7);
@@ -299,7 +299,7 @@ body {
   background: none;
   border: 0.1em solid #dcf0fb;
   border-radius: .2em;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Muli', sans-serif;
   color: #dcf0fb;
   font-size: 1em;
   -webkit-transition: background-color 0.5s ease;
@@ -318,7 +318,7 @@ body {
   background: none;
   border: none;
   border-bottom: 0.1em solid #dcf0fb;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Muli', sans-serif;
   color: #dcf0fb;
   font-size: .8em;
   padding-left: .2em;
@@ -355,7 +355,7 @@ body {
 
 /* line 71, ../sass/modules/_mailjet-widget.scss */
 .mailjet-widget-status {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Muli', sans-serif;
   font-size: 2em;
   padding-top: .5em;
 }
@@ -451,7 +451,7 @@ body {
 
 /* line 31, ../sass/modules/_hero.scss */
 .subtitle {
-  font-family: "Nunito";
+  font-family: "Muli";
   letter-spacing: .05em;
   text-transform: lowercase;
   font-size: 2em;
@@ -560,7 +560,7 @@ body {
 /* line 1, ../sass/modules/_about.scss */
 #about {
   background: #0b6683;
-  font-family: "Nunito";
+  font-family: "Muli";
 }
 
 /* line 6, ../sass/modules/_about.scss */
@@ -716,7 +716,7 @@ body {
 /* line 50, ../sass/modules/_faq.scss */
 #faq {
   background: #0b6683;
-  font-family: "Nunito";
+  font-family: "Muli";
   padding-bottom: 2.5em;
 }
 
