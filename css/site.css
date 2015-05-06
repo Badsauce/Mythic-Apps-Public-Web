@@ -779,14 +779,15 @@ body {
   color: #ffdb6d;
   font-size: 5em;
   padding-bottom: .5em;
+  text-transform: lowercase;
 }
 
-/* line 63, ../sass/modules/_faq.scss */
+/* line 64, ../sass/modules/_faq.scss */
 .question-container {
   position: relative;
 }
 @media screen and (max-width: 550px) {
-  /* line 67, ../sass/modules/_faq.scss */
+  /* line 68, ../sass/modules/_faq.scss */
   .question-container img {
     display: none;
   }
@@ -797,6 +798,7 @@ body {
   position: relative;
   font-family: "Muli";
   overflow: hidden;
+  padding-bottom: 5em;
   background: #8db17f;
   /* Old browsers */
   /* FF3.6+ */
@@ -812,7 +814,7 @@ body {
   /* IE6-9 */
 }
 
-/* line 16, ../sass/modules/_sponsors.scss */
+/* line 17, ../sass/modules/_sponsors.scss */
 .sponsor-header-image {
   position: absolute;
   width: 101%;
@@ -820,7 +822,7 @@ body {
   z-index: 1;
 }
 
-/* line 23, ../sass/modules/_sponsors.scss */
+/* line 24, ../sass/modules/_sponsors.scss */
 .sponsor-header {
   position: relative;
   z-index: 5;
@@ -831,7 +833,7 @@ body {
   padding-top: 15%;
 }
 
-/* line 33, ../sass/modules/_sponsors.scss */
+/* line 34, ../sass/modules/_sponsors.scss */
 .sponsor-subheader {
   position: relative;
   z-index: 5;
@@ -841,12 +843,25 @@ body {
   font-size: .7em;
   padding-bottom: 6em;
 }
-/* line 42, ../sass/modules/_sponsors.scss */
+/* line 43, ../sass/modules/_sponsors.scss */
 .sponsor-subheader a {
   color: #ffdb6d;
   text-decoration: none;
 }
-/* line 46, ../sass/modules/_sponsors.scss */
+/* line 47, ../sass/modules/_sponsors.scss */
 .sponsor-subheader a:visited {
   color: #ffdb6d;
+}
+
+/* line 1, ../sass/modules/_footer.scss */
+.footer {
+  text-align: center;
+  padding: .2em 0;
+  font-family: Muli;
+  font-weight: 100;
+  background-color: #0b6683;
+}
+/* line 8, ../sass/modules/_footer.scss */
+.footer .fa-diamond {
+  color: #bdc3c7;
 }
