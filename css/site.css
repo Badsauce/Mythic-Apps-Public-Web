@@ -368,6 +368,35 @@ body {
   color: green;
 }
 
+/* line 1, ../sass/modules/_media-grid.scss */
+.media-grid {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/* line 7, ../sass/modules/_media-grid.scss */
+.media-grid .media-item {
+  width: 30%;
+  padding: .5em;
+}
+/* line 11, ../sass/modules/_media-grid.scss */
+.media-grid .media-item img {
+  width: 100%;
+}
+/* line 16, ../sass/modules/_media-grid.scss */
+.media-grid .full {
+  width: 100%;
+  padding: 1em;
+}
+
 /* line 1, ../sass/modules/_hero-background.scss */
 #hero-background {
   position: absolute;
@@ -736,4 +765,62 @@ body {
   .question-container img {
     display: none;
   }
+}
+
+/* line 1, ../sass/modules/_sponsors.scss */
+#sponsors {
+  position: relative;
+  font-family: "Muli";
+  background: #8db17f;
+  /* Old browsers */
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #8db17f), color-stop(100%, #8bd5ed));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #8db17f 0%, #8bd5ed 100%);
+  /* Chrome10+,Safari5.1+ */
+  /* Opera 11.10+ */
+  /* IE10+ */
+  background: linear-gradient(to bottom, #8db17f 0%, #8bd5ed 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8db17f', endColorstr='#8bd5ed',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 15, ../sass/modules/_sponsors.scss */
+.sponsor-header-image {
+  position: absolute;
+  width: 101%;
+  top: -1%;
+  z-index: 1;
+}
+
+/* line 22, ../sass/modules/_sponsors.scss */
+.sponsor-header {
+  position: relative;
+  z-index: 5;
+  text-transform: uppercase;
+  text-align: center;
+  color: #dcf0fb;
+  font-size: 5em;
+  padding-top: 15%;
+}
+
+/* line 32, ../sass/modules/_sponsors.scss */
+.sponsor-subheader {
+  position: relative;
+  z-index: 5;
+  text-transform: uppercase;
+  text-align: center;
+  color: #dcf0fb;
+  font-size: .7em;
+  padding-bottom: 6em;
+}
+/* line 41, ../sass/modules/_sponsors.scss */
+.sponsor-subheader a {
+  color: #ffdb6d;
+  text-decoration: none;
+}
+/* line 45, ../sass/modules/_sponsors.scss */
+.sponsor-subheader a:visited {
+  color: #ffdb6d;
 }
