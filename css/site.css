@@ -779,15 +779,14 @@ body {
   color: #ffdb6d;
   font-size: 5em;
   padding-bottom: .5em;
-  text-transform: lowercase;
 }
 
-/* line 64, ../sass/modules/_faq.scss */
+/* line 63, ../sass/modules/_faq.scss */
 .question-container {
   position: relative;
 }
 @media screen and (max-width: 550px) {
-  /* line 68, ../sass/modules/_faq.scss */
+  /* line 67, ../sass/modules/_faq.scss */
   .question-container img {
     display: none;
   }
