@@ -406,37 +406,55 @@ body {
   width: 100%;
   height: 100vh;
   overflow: hidden;
+  background: #80dff6;
+  /* Old browsers */
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #80dff6), color-stop(100%, #5eaaa8));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #80dff6 50%, #5eaaa8 100%);
+  /* Chrome10+,Safari5.1+ */
+  /* Opera 11.10+ */
+  /* IE10+ */
+  background: linear-gradient(to bottom, #80dff6 50%, #5eaaa8 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80dff6', endColorstr='#5eaaa8',GradientType=0 );
+  /* IE6-9 */
 }
 
-/* line 11, ../sass/modules/_hero-background.scss */
+/* line 26, ../sass/modules/_hero-background.scss */
 .full-width {
   width: 100%;
 }
 
-/* line 15, ../sass/modules/_hero-background.scss */
+/* line 30, ../sass/modules/_hero-background.scss */
 .align-bottom {
   position: absolute;
   bottom: 0;
   left: 0;
 }
 
-/* line 21, ../sass/modules/_hero-background.scss */
+/* line 36, ../sass/modules/_hero-background.scss */
 .align-top {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-/* line 27, ../sass/modules/_hero-background.scss */
+/* line 42, ../sass/modules/_hero-background.scss */
 .capitol {
   position: absolute;
   width: 95%;
   left: 38.5%;
 }
 
-/* line 33, ../sass/modules/_hero-background.scss */
+/* line 48, ../sass/modules/_hero-background.scss */
 .close-gap {
   bottom: -1px;
+}
+
+/* line 52, ../sass/modules/_hero-background.scss */
+.arch {
+  opacity: .5;
 }
 
 /* line 1, ../sass/modules/_hero.scss */
@@ -583,6 +601,13 @@ body {
 #partners {
   background: rgba(220, 240, 251, 0.7);
   height: 60vh;
+}
+
+/* line 27, ../sass/modules/_navbar.scss */
+.nav-decoration {
+  height: 1.5em;
+  margin: 0 .1em;
+  display: inline-block;
 }
 
 /* line 1, ../sass/modules/_about.scss */
@@ -745,7 +770,7 @@ body {
 #faq {
   background: #0b6683;
   font-family: "Muli";
-  padding-bottom: 2.5em;
+  padding-bottom: 5em;
 }
 
 /* line 56, ../sass/modules/_faq.scss */
