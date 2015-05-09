@@ -9,6 +9,10 @@
   height: 100vh;
 }
 
+::selection {
+  background: $highlight
+}
+
 body {
   background: $mainBackground;
   font-size: .6em;
