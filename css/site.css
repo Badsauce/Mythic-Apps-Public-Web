@@ -618,6 +618,12 @@ body {
   display: inline-block;
 }
 
+/* line 1, ../sass/modules/_application.scss */
+#application {
+  display: none;
+  height: 100vh;
+}
+
 /* line 1, ../sass/modules/_about.scss */
 #about {
   background: #0b6683;
