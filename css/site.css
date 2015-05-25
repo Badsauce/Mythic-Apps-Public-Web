@@ -620,8 +620,49 @@ body {
 
 /* line 1, ../sass/modules/_application.scss */
 #application {
-  display: none;
-  height: 100vh;
+  background-color: #0b6683;
+  color: #ffdb6d;
+  font-family: "Muli";
+}
+
+/* line 8, ../sass/modules/_application.scss */
+.crystals-mobile-top {
+  margin-top: -1px;
+}
+
+/* line 12, ../sass/modules/_application.scss */
+.mobile-application-header {
+  margin: 2em;
+  margin-right: 0;
+}
+
+/* line 17, ../sass/modules/_application.scss */
+.mobile-application-logo {
+  display: inline-block;
+  width: 15%;
+}
+
+/* line 22, ../sass/modules/_application.scss */
+.mobile-application-header-text {
+  display: inline-block;
+  width: 84%;
+}
+/* line 26, ../sass/modules/_application.scss */
+.mobile-application-header-text h1 {
+  text-transform: uppercase;
+  font-size: 3em;
+  padding-bottom: .05em;
+  border-bottom: 0.2em solid #ffdb6d;
+}
+/* line 33, ../sass/modules/_application.scss */
+.mobile-application-header-text h2 {
+  font-size: 1.5em;
+  padding-top: .5em;
+}
+
+/* line 39, ../sass/modules/_application.scss */
+.application-column {
+  margin: 2em;
 }
 
 /* line 1, ../sass/modules/_about.scss */

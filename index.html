@@ -17,6 +17,7 @@
         <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
         <link href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.0.0/animate.min.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="css/site.css">
+        <link rel="stylesheet" href="css/awesomplete.css" />
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     </head>
@@ -89,7 +90,88 @@
         </div>
 
         <section id="application" class="scrollto">
+          <img class="crystals-mobile-top" src="img/sponsor-cave.svg">
 
+          <div class="mobile-application-header">
+            <img class="mobile-application-logo" src="img/gem-logo.png">
+            <div class="mobile-application-header-text">
+              <h1>Application</h1>
+              <h2>Due August 10, 2015</h2>
+            </div>
+          </div>
+
+          <form id="application-form">
+            <div class="left-column application-column">
+
+              <h3 class="section-label">Personal</h3>
+
+              <label for="name">Name</label>
+              <input id="name" type="text" name="name" required/>
+
+              <label for="email">Email</label>
+              <input id="email" type="email" name="email" required/>
+
+              <label for="genderId">Gender Identity</label>
+              <input class="awesomplete" id="genderId" type="text" name="genderId" list="genderList" required/>
+              <datalist id="genderList">
+              	<option>Female</option>
+              	<option>Male</option>
+              	<option>Non-binary</option>
+              	<option>Prefer not to answer</option>
+              </datalist>
+
+
+              <label for="schoolName">School Name</label>
+              <input class="awesomplete" id="schoolName" type="text" name="schoolName" list="schoolList" required/>
+              <datalist id="schoolList">
+                <option>Michigan State University</option>
+                <option>Saline High School</option>
+                <option>Clown Academy for Gifted Jokesters</option>
+              </datalist>
+
+              <input id="isFirstHackathon" type="checkbox" name="isFirstHackathon"/>
+              <label for="isFirstHackathon">This is my first hackathon.</label>
+
+              <input id="isNotTravelingFromSchool" type="checkbox" name"isNotTravelingFromSchool" />
+              <label for="isNotTravelingFromSchool">I will not be traveling from my school</label>
+
+              <label for="alternativeTravelPoint">I will be traveling from</label>
+              <input id="alternativeTravelPoint" type="text" name="alternativeTravelPoint" />
+
+              <label for="resume"></label>
+              <input id="resume" type="filepicker-dragdrop" data-fp-apikey="AYwmlncw3SJyIxVRZuyx2z" data-fp-mimetypes="application/pdf" data-fp-container="modal" onchange="alert(event.fpfile.url)">
+            </div>
+            <div class="right-column application-column">
+
+              <h3>Additional Information (Optional)</h3>
+
+              <label for="github">Github</label>
+              <input id="github" type="text" name="github"/>
+
+              <label for="dribbble">Dribbble</label>
+              <input id="dribbble" type="text" name="dribbble"/>
+
+              <label for="linkedin">Linkedin</label>
+              <input id="linkedin" type="text" name="linkedin"/>
+
+              <label for="personalSite">Personal Site</label>
+              <input id="personalSite" type="text" name="personalSite"/>
+
+              <h3>Free Response (Optional)</h3>
+
+              <label for="freeResponse">
+                Have anything else you' like to share?
+                You can put links, awards, imgur links, or whatever else you'd like here.
+                If there is somthing not reflected in the other informationyou've given us, this is a great place to put it!
+              </label>
+              <textarea id="freeResponse" name="freeResponse"></textarea>
+
+              <button>Save</button>
+
+            </div>
+          </form>
+
+          <img class="crystals desktop-right mobile-bottom" src="img/sponsor-cave.svg">
         </section>
 
         <section id="about" class="scrollto">
@@ -265,8 +347,10 @@
         <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
         <script src="http://cdn.jsdelivr.net/vivus/0.2.1/vivus.min.js"></script>
         <script src="http://cdn.jsdelivr.net/stickynavbar.js/1.1.2/jquery.stickyNavbar.min.js"></script>
+        <script type="text/javascript" src="http://api.filepicker.io/v1/filepicker.js"></script>
 
         <script src="js/vendor/jquery.waypoints.min.js"></script>
+        <script src="js/vendor/awesomplete.js"></script>
         <script src="js/mailjet-widget.js"></script>
         <script src="js/questionToggle.js"></script>
         <script src="js/applicationLogic.js"></script>

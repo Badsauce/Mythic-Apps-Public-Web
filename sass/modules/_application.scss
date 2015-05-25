@@ -1,4 +1,41 @@
 #application {
-  display: none;
-  height: 100vh;
+  //display: none;
+  background-color: $applicationBackground;
+  color: $applicationText;
+  font-family: "Muli";
+}
+
+.crystals-mobile-top {
+  margin-top: -1px;
+}
+
+.mobile-application-header {
+  margin: 2em;
+  margin-right: 0;
+}
+
+.mobile-application-logo {
+  display: inline-block;
+  width: 15%;
+}
+
+.mobile-application-header-text {
+  display: inline-block;
+  width: 84%;
+
+  h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+    padding-bottom: .05em;
+    border-bottom: .2em solid $applicationText;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    padding-top: .5em;
+  }
+}
+
+.application-column {
+  margin: 2em;
 }
