@@ -28,8 +28,12 @@
 }
 
 .mobile-application-header {
-  margin-bottom: 2em;
+  max-width: 1200px;
   margin-left: 2em;
+  @media screen and (min-width: 550px){
+    margin: auto;
+  }
+  margin-bottom: 2em;
 }
 
 .mobile-application-logo {

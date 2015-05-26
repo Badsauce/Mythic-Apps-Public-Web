@@ -665,46 +665,53 @@ body {
 
 /* line 30, ../sass/modules/_application.scss */
 .mobile-application-header {
-  margin-bottom: 2em;
+  max-width: 1200px;
   margin-left: 2em;
+  margin-bottom: 2em;
+}
+@media screen and (min-width: 550px) {
+  /* line 30, ../sass/modules/_application.scss */
+  .mobile-application-header {
+    margin: auto;
+  }
 }
 
-/* line 35, ../sass/modules/_application.scss */
+/* line 39, ../sass/modules/_application.scss */
 .mobile-application-logo {
   display: inline-block;
   width: 15%;
 }
 
-/* line 40, ../sass/modules/_application.scss */
+/* line 44, ../sass/modules/_application.scss */
 .mobile-application-header-text {
   display: inline-block;
   width: 84%;
 }
-/* line 44, ../sass/modules/_application.scss */
+/* line 48, ../sass/modules/_application.scss */
 .mobile-application-header-text h1 {
   text-transform: uppercase;
   font-size: 3em;
   padding-bottom: .05em;
   border-bottom: 0.2em solid #ffdb6d;
 }
-/* line 51, ../sass/modules/_application.scss */
+/* line 55, ../sass/modules/_application.scss */
 .mobile-application-header-text h2 {
   font-size: 1.5em;
   padding-top: .5em;
 }
 
-/* line 57, ../sass/modules/_application.scss */
+/* line 61, ../sass/modules/_application.scss */
 .application-column {
   margin: 2em;
 }
 @media screen and (min-width: 550px) {
-  /* line 57, ../sass/modules/_application.scss */
+  /* line 61, ../sass/modules/_application.scss */
   .application-column {
     width: 45%;
   }
 }
 
-/* line 65, ../sass/modules/_application.scss */
+/* line 69, ../sass/modules/_application.scss */
 .section-label {
   text-transform: uppercase;
   color: black;
@@ -712,28 +719,28 @@ body {
   padding: .75em 0;
 }
 
-/* line 72, ../sass/modules/_application.scss */
+/* line 76, ../sass/modules/_application.scss */
 label {
   font-size: 1.5em;
 }
 
-/* line 76, ../sass/modules/_application.scss */
+/* line 80, ../sass/modules/_application.scss */
 label, .checkbox-container {
   margin: .5em 0;
 }
 
-/* line 80, ../sass/modules/_application.scss */
+/* line 84, ../sass/modules/_application.scss */
 .full-line-label {
   display: block;
   text-transform: uppercase;
 }
 
-/* line 85, ../sass/modules/_application.scss */
+/* line 89, ../sass/modules/_application.scss */
 div.awesomplete {
   width: 100%;
 }
 
-/* line 89, ../sass/modules/_application.scss */
+/* line 93, ../sass/modules/_application.scss */
 input[type="text"], input[type="email"] {
   background: none;
   border: none;
@@ -741,7 +748,7 @@ input[type="text"], input[type="email"] {
   width: 100%;
 }
 
-/* line 97, ../sass/modules/_application.scss */
+/* line 101, ../sass/modules/_application.scss */
 #freeResponse {
   display: block;
   width: 100%;
@@ -752,7 +759,7 @@ input[type="text"], input[type="email"] {
 }
 
 @media screen and (min-width: 550px) {
-  /* line 106, ../sass/modules/_application.scss */
+  /* line 110, ../sass/modules/_application.scss */
   .optional-portfolios {
     display: -webkit-box;
     display: -webkit-flex;
@@ -764,7 +771,7 @@ input[type="text"], input[type="email"] {
             justify-content: space-between;
     width: 100%;
   }
-  /* line 112, ../sass/modules/_application.scss */
+  /* line 116, ../sass/modules/_application.scss */
   .optional-portfolios div {
     width: 45%;
   }
