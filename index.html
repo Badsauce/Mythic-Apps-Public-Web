@@ -129,35 +129,39 @@
                 <option>Clown Academy for Gifted Jokesters</option>
               </datalist>
 
-              <input id="isFirstHackathon" type="checkbox" name="isFirstHackathon"/>
-              <label for="isFirstHackathon">This is my first hackathon.</label>
+              <div class="checkbox-container">
+                <input id="isFirstHackathon" type="checkbox" name="isFirstHackathon"/>
+                <label for="isFirstHackathon">This is my first hackathon.</label>
+              </div>
 
-              <input id="isNotTravelingFromSchool" type="checkbox" name"isNotTravelingFromSchool" />
-              <label for="isNotTravelingFromSchool">I will not be traveling from my school</label>
+              <div class="checkbox-container">
+                <input id="isNotTravelingFromSchool" type="checkbox" name"isNotTravelingFromSchool" />
+                <label for="isNotTravelingFromSchool">I will not be traveling from my school</label>
+              </div>
 
-              <label for="alternativeTravelPoint">I will be traveling from</label>
+              <label class="full-line-label" for="alternativeTravelPoint">I will be traveling from</label>
               <input id="alternativeTravelPoint" type="text" name="alternativeTravelPoint" />
 
-              <label for="resume"></label>
+              <label class="full-line-label" for="resume">Resume</label>
               <input id="resume" type="filepicker-dragdrop" data-fp-apikey="AYwmlncw3SJyIxVRZuyx2z" data-fp-mimetypes="application/pdf" data-fp-container="modal" onchange="alert(event.fpfile.url)">
             </div>
             <div class="right-column application-column">
 
-              <h3>Additional Information (Optional)</h3>
+              <h3 class="section-label">Additional Information (Optional)</h3>
 
-              <label for="github">Github</label>
+              <label class="full-line-label" for="github">Github</label>
               <input id="github" type="text" name="github"/>
 
-              <label for="dribbble">Dribbble</label>
+              <label class="full-line-label" for="dribbble">Dribbble</label>
               <input id="dribbble" type="text" name="dribbble"/>
 
-              <label for="linkedin">Linkedin</label>
+              <label class="full-line-label" for="linkedin">Linkedin</label>
               <input id="linkedin" type="text" name="linkedin"/>
 
-              <label for="personalSite">Personal Site</label>
+              <label class="full-line-label" for="personalSite">Personal Site</label>
               <input id="personalSite" type="text" name="personalSite"/>
 
-              <h3>Free Response (Optional)</h3>
+              <h3 class="section-label free-response-section-label">Free Response (Optional)</h3>
 
               <label for="freeResponse">
                 Have anything else you' like to share?
