@@ -39,3 +39,32 @@
 .application-column {
   margin: 2em;
 }
+
+.section-label {
+  text-transform: uppercase;
+  color: $applicationSectionHeader;
+  font-size: 1.5em;
+  padding-bottom: .75em;
+}
+
+label {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  margin: .5em 0;
+}
+
+.full-line-label {
+  display: block;
+}
+
+div.awesomplete {
+  width: 100%;
+}
+
+input[type="text"], input[type="email"] {
+  background: none;
+  border: none;
+
+  border-bottom: .2em solid $applicationText;
+  width: 100%;
+}

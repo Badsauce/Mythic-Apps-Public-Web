@@ -105,13 +105,13 @@
 
               <h3 class="section-label">Personal</h3>
 
-              <label for="name">Name</label>
-              <input id="name" type="text" name="name" required/>
+              <label class="full-line-label" for="name">Name</label>
+              <input id="name" type="text" name="name"/>
 
-              <label for="email">Email</label>
+              <label class="full-line-label" for="email">Email</label>
               <input id="email" type="email" name="email" required/>
 
-              <label for="genderId">Gender Identity</label>
+              <label class="full-line-label" for="genderId">Gender Identity</label>
               <input class="awesomplete" id="genderId" type="text" name="genderId" list="genderList" required/>
               <datalist id="genderList">
               	<option>Female</option>
@@ -121,7 +121,7 @@
               </datalist>
 
 
-              <label for="schoolName">School Name</label>
+              <label class="full-line-label" for="schoolName">School Name</label>
               <input class="awesomplete" id="schoolName" type="text" name="schoolName" list="schoolList" required/>
               <datalist id="schoolList">
                 <option>Michigan State University</option>
@@ -166,7 +166,7 @@
               </label>
               <textarea id="freeResponse" name="freeResponse"></textarea>
 
-              <button>Save</button>
+              <button id="save-application">Save</button>
 
             </div>
           </form>

@@ -665,6 +665,39 @@ body {
   margin: 2em;
 }
 
+/* line 43, ../sass/modules/_application.scss */
+.section-label {
+  text-transform: uppercase;
+  color: black;
+  font-size: 1.5em;
+  padding-bottom: .75em;
+}
+
+/* line 50, ../sass/modules/_application.scss */
+label {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  margin: .5em 0;
+}
+
+/* line 56, ../sass/modules/_application.scss */
+.full-line-label {
+  display: block;
+}
+
+/* line 60, ../sass/modules/_application.scss */
+div.awesomplete {
+  width: 100%;
+}
+
+/* line 64, ../sass/modules/_application.scss */
+input[type="text"], input[type="email"] {
+  background: none;
+  border: none;
+  border-bottom: 0.2em solid #ffdb6d;
+  width: 100%;
+}
+
 /* line 1, ../sass/modules/_about.scss */
 #about {
   background: #0b6683;
