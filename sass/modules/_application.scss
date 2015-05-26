@@ -1,12 +1,16 @@
 #application {
-  //display: none;
+  display: none;
   background-color: $applicationBackground;
   color: $applicationText;
   font-family: "Muli";
 }
 
-.crystals-mobile-top {
+.crystals-top {
   margin-top: -1px;
+}
+
+.crystals-bottom {
+  transform: scaleY(-1);
 }
 
 .mobile-application-header {

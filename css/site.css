@@ -620,52 +620,60 @@ body {
 
 /* line 1, ../sass/modules/_application.scss */
 #application {
+  display: none;
   background-color: #0b6683;
   color: #ffdb6d;
   font-family: "Muli";
 }
 
 /* line 8, ../sass/modules/_application.scss */
-.crystals-mobile-top {
+.crystals-top {
   margin-top: -1px;
 }
 
 /* line 12, ../sass/modules/_application.scss */
+.crystals-bottom {
+  -webkit-transform: scaleY(-1);
+      -ms-transform: scaleY(-1);
+          transform: scaleY(-1);
+}
+
+/* line 16, ../sass/modules/_application.scss */
 .mobile-application-header {
   margin: 2em;
   margin-right: 0;
 }
 
-/* line 17, ../sass/modules/_application.scss */
+/* line 21, ../sass/modules/_application.scss */
 .mobile-application-logo {
   display: inline-block;
   width: 15%;
 }
 
-/* line 22, ../sass/modules/_application.scss */
+/* line 26, ../sass/modules/_application.scss */
 .mobile-application-header-text {
   display: inline-block;
   width: 84%;
 }
-/* line 26, ../sass/modules/_application.scss */
+/* line 30, ../sass/modules/_application.scss */
 .mobile-application-header-text h1 {
   text-transform: uppercase;
   font-size: 3em;
   padding-bottom: .05em;
   border-bottom: 0.2em solid #ffdb6d;
 }
-/* line 33, ../sass/modules/_application.scss */
+/* line 37, ../sass/modules/_application.scss */
 .mobile-application-header-text h2 {
   font-size: 1.5em;
   padding-top: .5em;
 }
 
-/* line 39, ../sass/modules/_application.scss */
+/* line 43, ../sass/modules/_application.scss */
 .application-column {
   margin: 2em;
 }
 
-/* line 43, ../sass/modules/_application.scss */
+/* line 47, ../sass/modules/_application.scss */
 .section-label {
   text-transform: uppercase;
   color: black;
@@ -673,28 +681,28 @@ body {
   padding: .75em 0;
 }
 
-/* line 50, ../sass/modules/_application.scss */
+/* line 54, ../sass/modules/_application.scss */
 label {
   font-size: 1.5em;
 }
 
-/* line 54, ../sass/modules/_application.scss */
+/* line 58, ../sass/modules/_application.scss */
 label, .checkbox-container {
   margin: .5em 0;
 }
 
-/* line 58, ../sass/modules/_application.scss */
+/* line 62, ../sass/modules/_application.scss */
 .full-line-label {
   display: block;
   text-transform: uppercase;
 }
 
-/* line 63, ../sass/modules/_application.scss */
+/* line 67, ../sass/modules/_application.scss */
 div.awesomplete {
   width: 100%;
 }
 
-/* line 67, ../sass/modules/_application.scss */
+/* line 71, ../sass/modules/_application.scss */
 input[type="text"], input[type="email"] {
   background: none;
   border: none;
@@ -702,7 +710,7 @@ input[type="text"], input[type="email"] {
   width: 100%;
 }
 
-/* line 75, ../sass/modules/_application.scss */
+/* line 79, ../sass/modules/_application.scss */
 #freeResponse {
   display: block;
   width: 100%;
