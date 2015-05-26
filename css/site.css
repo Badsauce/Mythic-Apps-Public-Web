@@ -620,60 +620,91 @@ body {
 
 /* line 1, ../sass/modules/_application.scss */
 #application {
-  display: none;
   background-color: #0b6683;
   color: #ffdb6d;
   font-family: "Muli";
 }
 
 /* line 8, ../sass/modules/_application.scss */
+#application-form {
+  max-width: 1200px;
+  margin: auto;
+}
+@media screen and (min-width: 550px) {
+  /* line 8, ../sass/modules/_application.scss */
+  #application-form {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  /* line 17, ../sass/modules/_application.scss */
+  .crystals-top, .crystals-bottom {
+    display: none;
+  }
+}
+
+/* line 22, ../sass/modules/_application.scss */
 .crystals-top {
   margin-top: -1px;
 }
 
-/* line 12, ../sass/modules/_application.scss */
+/* line 26, ../sass/modules/_application.scss */
 .crystals-bottom {
   -webkit-transform: scaleY(-1);
       -ms-transform: scaleY(-1);
           transform: scaleY(-1);
 }
 
-/* line 16, ../sass/modules/_application.scss */
+/* line 30, ../sass/modules/_application.scss */
 .mobile-application-header {
-  margin: 2em;
-  margin-right: 0;
+  margin-bottom: 2em;
+  margin-left: 2em;
 }
 
-/* line 21, ../sass/modules/_application.scss */
+/* line 35, ../sass/modules/_application.scss */
 .mobile-application-logo {
   display: inline-block;
   width: 15%;
 }
 
-/* line 26, ../sass/modules/_application.scss */
+/* line 40, ../sass/modules/_application.scss */
 .mobile-application-header-text {
   display: inline-block;
   width: 84%;
 }
-/* line 30, ../sass/modules/_application.scss */
+/* line 44, ../sass/modules/_application.scss */
 .mobile-application-header-text h1 {
   text-transform: uppercase;
   font-size: 3em;
   padding-bottom: .05em;
   border-bottom: 0.2em solid #ffdb6d;
 }
-/* line 37, ../sass/modules/_application.scss */
+/* line 51, ../sass/modules/_application.scss */
 .mobile-application-header-text h2 {
   font-size: 1.5em;
   padding-top: .5em;
 }
 
-/* line 43, ../sass/modules/_application.scss */
+/* line 57, ../sass/modules/_application.scss */
 .application-column {
   margin: 2em;
 }
+@media screen and (min-width: 550px) {
+  /* line 57, ../sass/modules/_application.scss */
+  .application-column {
+    width: 45%;
+  }
+}
 
-/* line 47, ../sass/modules/_application.scss */
+/* line 65, ../sass/modules/_application.scss */
 .section-label {
   text-transform: uppercase;
   color: black;
@@ -681,28 +712,28 @@ body {
   padding: .75em 0;
 }
 
-/* line 54, ../sass/modules/_application.scss */
+/* line 72, ../sass/modules/_application.scss */
 label {
   font-size: 1.5em;
 }
 
-/* line 58, ../sass/modules/_application.scss */
+/* line 76, ../sass/modules/_application.scss */
 label, .checkbox-container {
   margin: .5em 0;
 }
 
-/* line 62, ../sass/modules/_application.scss */
+/* line 80, ../sass/modules/_application.scss */
 .full-line-label {
   display: block;
   text-transform: uppercase;
 }
 
-/* line 67, ../sass/modules/_application.scss */
+/* line 85, ../sass/modules/_application.scss */
 div.awesomplete {
   width: 100%;
 }
 
-/* line 71, ../sass/modules/_application.scss */
+/* line 89, ../sass/modules/_application.scss */
 input[type="text"], input[type="email"] {
   background: none;
   border: none;
@@ -710,7 +741,7 @@ input[type="text"], input[type="email"] {
   width: 100%;
 }
 
-/* line 79, ../sass/modules/_application.scss */
+/* line 97, ../sass/modules/_application.scss */
 #freeResponse {
   display: block;
   width: 100%;
@@ -718,6 +749,25 @@ input[type="text"], input[type="email"] {
   margin: 1em 0;
   background-color: rgba(220, 240, 251, 0.7);
   border: none;
+}
+
+@media screen and (min-width: 550px) {
+  /* line 106, ../sass/modules/_application.scss */
+  .optional-portfolios {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+  }
+  /* line 112, ../sass/modules/_application.scss */
+  .optional-portfolios div {
+    width: 45%;
+  }
 }
 
 /* line 1, ../sass/modules/_about.scss */
