@@ -40,3 +40,16 @@
     }
   }
 }
+
+#apply {
+  font-size: 2em;
+  background-color: $applyButton;
+  width: 70%;
+  border-radius: 1em;
+  padding: .25em;
+  margin: .5em .25em;
+
+  &:hover {
+    background: $applyButtonActive;
+  }
+}

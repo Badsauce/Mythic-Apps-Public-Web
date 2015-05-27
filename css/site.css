@@ -258,11 +258,11 @@ body {
 
 /* line 19, ../sass/modules/_button.scss */
 .button--contact {
-  background: rgba(158, 122, 45, 0.6);
+  background: rgba(27, 103, 132, 0.6);
 }
 /* line 22, ../sass/modules/_button.scss */
 .button--contact:hover {
-  background: #9e7a2d;
+  background: #0b6683;
 }
 
 /* line 28, ../sass/modules/_button.scss */
@@ -281,6 +281,20 @@ body {
 /* line 38, ../sass/modules/_button.scss */
 .button--faq.selected img {
   opacity: 1;
+}
+
+/* line 44, ../sass/modules/_button.scss */
+#apply {
+  font-size: 2em;
+  background-color: rgba(158, 122, 45, 0.6);
+  width: 70%;
+  border-radius: 1em;
+  padding: .25em;
+  margin: .5em .25em;
+}
+/* line 52, ../sass/modules/_button.scss */
+#apply:hover {
+  background: #9e7a2d;
 }
 
 /* line 1, ../sass/modules/_mailjet-widget.scss */
