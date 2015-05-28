@@ -22,9 +22,9 @@ function saveApplication() {
   var formData = $('#application-form').serializeArray()
 
   validateName(formData['name']);
-  validateEmail();
-  validateGenderId();
-  validateSchool();
+  validateEmail(formData['email']);
+  validateGenderId(formData['genderId']);
+  validateSchool(formData['schoolName']);
 }
 
 function validateName(name) {
@@ -33,19 +33,32 @@ function validateName(name) {
     //In practice we'll probably use .addClass() to add an 'error' class
     //which we'd then define and style in scss
     $('#name').append('*');
+    $('#name').class("invalid");
     //Creates a pop-up notifying the user of the error
     alert('name is not valid');
   }
 }
 
-function validateEmail() {
-
+function validateEmail(email) {
+    if(!email){
+        $('#email').append('*');
+        $('#email').class("invalid");
+        alert('email is not valid');
+    }
 }
 
-function validateGenderId() {
-
+function validateGenderId(genderId) {
+    if(!genderId){
+        $('#genderId').append('*');
+        $('#genderId').class("invalid");
+        alert('gender is not valid');
+    }
 }
 
-function validateSchool() {
-
+function validateSchool(schoolName) {
+    if(!schoolName){
+        $('#schoolName').append('*');
+        $('#schoolName').class("invalid");
+        alert('school name is not valid');
+    }
 }
